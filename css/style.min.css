@@ -247,6 +247,9 @@ p strong {
     grid-template-columns: 1fr;
   }
 }
+.formacao {
+  background: #141414;
+}
 .formacao-container {
   max-width: 1200px;
   padding: 120px 20px;
@@ -340,7 +343,6 @@ p strong {
   position: relative;
 }
 .cursos {
-  background: #000;
   color: #fff;
   padding: 20px;
   border-radius: 5px;

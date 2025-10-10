@@ -58,13 +58,17 @@
   border-radius: 5px;
 }
 
+/* Define a cor padrão dos links DENTRO do <li> */
 .cursos-lista li a {
-color: #ffffff;
-/* text-decoration: none; */
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
 }
 
+/* Garante que o hover seja aplicado com especificidade igual */
 .cursos-lista li a:hover {
-  color: #3f70ea;
+  color: #3f70ea; /* O AZUL DEVE APARECER AQUI! */
 }
 
 .idiomas {

@@ -60,7 +60,7 @@
 
 /* Simplifique para afetar o <a> diretamente */
 .cursos-lista a {
-  color: #141414;
+  color: #ffffff;
   display: inline-block;
   position: relative;
 }

@@ -60,7 +60,15 @@
 
 .cursos-lista li a {
   color: #ffffff;
-  /* text-decoration: none; */
+  text-decoration: none;
+  display: inline-block; /* garante área clicável */
+  position: relative;
+  z-index: 1;
+}
+
+.cursos-lista li span {
+  position: relative;
+  z-index: 0;
 }
 
 .cursos-lista a:hover {

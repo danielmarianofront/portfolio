@@ -58,6 +58,15 @@
   border-radius: 5px;
 }
 
+.cursos li a {
+  color: #ffffff;
+  /* text-decoration: none; */
+}
+
+.cursos a:hover {
+  color: #3f70ea;
+}
+
 .idiomas {
   padding: 20px;
 }

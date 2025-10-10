@@ -58,12 +58,12 @@
   border-radius: 5px;
 }
 
-.cursos li a {
+.cursos-lista li a {
   color: #ffffff;
   /* text-decoration: none; */
 }
 
-.cursos a:hover {
+.cursos-lista a:hover {
   color: #3f70ea;
 }
 

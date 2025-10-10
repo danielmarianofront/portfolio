@@ -58,15 +58,18 @@
   border-radius: 5px;
 }
 
-.cursos-lista li a {
-color: #ffffff;
-/* text-decoration: none; */
+/* Simplifique para afetar o <a> diretamente */
+.cursos-lista a {
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
 }
 
-.cursos-lista li a:hover {
+/* Use o seletor simplificado para o hover também */
+.cursos-lista a:hover {
   color: #3f70ea;
 }
-
 
 .idiomas {
   padding: 20px;

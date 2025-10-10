@@ -59,19 +59,11 @@
 }
 
 .cursos-lista li a {
-  color: #ffffff;
-  text-decoration: none;
-  display: inline-block; /* garante área clicável */
-  position: relative;
-  z-index: 1;
+color: #ffffff;
+/* text-decoration: none; */
 }
 
-.cursos-lista li span {
-  position: relative;
-  z-index: 0;
-}
-
-.cursos-lista a:hover {
+.cursos-lista li a:hover {
   color: #3f70ea;
 }
 

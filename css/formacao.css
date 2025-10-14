@@ -98,19 +98,34 @@
 }
 
 .cursos {
-  color: #a3a3a3;
+  color: #ffffff;
   margin-bottom: 50px;
   position: relative;
 }
 
 .cursos {
-  background: black;
-  /*color: white;*/
+  /* background: black;
+  color: white; */
   padding: 20px;
   border-radius: 5px;
 }
 
-.cursos-lista li a { color: #ffffff; /* text-decoration: none; */ } .cursos-lista a:hover { color: #3f70ea; }
+.cursos-lista li a {
+  color: #ffffff;
+  /* text-decoration: none; */
+  display: inline-block; /* garante área clicável */
+  position: relative;
+  z-index: 1;
+}
+
+.cursos-lista li span {
+  position: relative;
+  z-index: 0;
+}
+
+.cursos-lista a:hover {
+  color: #3f70ea;
+}
 
 .idiomas {
   padding: 20px;
